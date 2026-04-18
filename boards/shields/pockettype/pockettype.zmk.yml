@@ -8,3 +8,5 @@ requires:
 features:
   - keys
   - studio
+layouts:
+  - layout_pockettype

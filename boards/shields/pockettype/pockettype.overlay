@@ -7,6 +7,10 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 
 / {
+	chosen {
+		zmk,physical-layout = &layout_pockettype_posmap;
+	};
+
 	leds {
 		compatible = "gpio-leds";
 		actled: led_a {
