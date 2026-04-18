@@ -50,7 +50,7 @@
 			;
 	};
 
-	physical_layout0 {
+	layout_pockettype: physical_layout0 {
 		compatible = "zmk,physical-layout";
 		display-name = "PocketType 40%";
 		
