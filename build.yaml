@@ -21,8 +21,8 @@
 include:
   - board: nice_nano//zmk
     shield: pockettype
-    #snippet: studio-rpc-usb-uart
-    #cmake-args: -DCONFIG_ZMK_STUDIO=y
+    snippet: studio-rpc-usb-uart
+    cmake-args: -DCONFIG_ZMK_STUDIO=y
     artifact-name: pockettype
   - board: nice_nano//zmk
     shield: settings_reset
