@@ -5,6 +5,7 @@
     layout_pockettype: layout_pockettype {
         compatible = "zmk,physical-layout";
         display-name = "PocketType 4x12";
+        transform = <&kscan0>;
 
         keys
             //                     w   h    x    y     rot    rx    ry
