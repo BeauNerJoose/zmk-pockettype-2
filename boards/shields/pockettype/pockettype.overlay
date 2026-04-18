@@ -27,7 +27,6 @@
 		wakeup-source;
 
 		diode-direction = "col2row";
-		transform = <&matrix_transform_pockettype>;
 
 		col-gpios
 			= <&pro_micro_a 1 GPIO_ACTIVE_HIGH>
