@@ -1,1 +1,9 @@
-ZMK firmware for [PocketType](https://mechboards.co.uk/products/pockettype?variant=40366789361869). The firmware is currently functional but I could not enable ZMK Studio. The 2 LEDs on PocketType also do not work unless you bridge pins 2 and 5 from the top on the right side (not including the battery pin). My nice!nano v2 appears to be broken as it suddently will not connect to any device via bluetooth, so this project might be on pause.
+ZMK firmware for [PocketType](https://mechboards.co.uk/products/pockettype?variant=40366789361869). 
+
+The firmware is currently functional with full studio support (finally). 
+
+The LEDs aren't functioning currently, might work on that after getting full visual keymap support built.
+
+Also need to take another look at the power profiling and draw.
+
+Both Studio and Main branches build successfully via Actions.
